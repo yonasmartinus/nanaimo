@@ -1,1 +1,2 @@
-# Jareds-trip
+# jareds-trip.github.io
+Canada Itinerary
