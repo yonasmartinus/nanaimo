@@ -1,2 +1,2 @@
-# JJY_Canada.github.io
-Canada Itinerary
+# nanaimo.github.io
+Nanaimo Itinerary
