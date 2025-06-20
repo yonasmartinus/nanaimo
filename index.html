@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Vancouver Island Trip Itinerary</title>
     <style>
         body {
@@ -13,41 +13,43 @@
             background-color: #f4f4f4;
             color: #333;
         }
-        h1, h2, h3 {
+
+        h1, h2 {
             color: #3e4a59;
-            margin-top: 1em;
-            margin-bottom: 0.5em;
+            margin: 1.5em 0 0.5em;
         }
+
+        h2 + table {
+            margin-top: 0;
+        }
+
         table {
             width: 100%;
-            margin-top: 10px;
             border-collapse: collapse;
             background-color: #fff;
+            margin-bottom: 30px;
         }
+
         th, td {
-            padding: 10px;
+            padding: 8px 12px;
             text-align: left;
             border-bottom: 1px solid #ddd;
         }
+
         th {
             background-color: #4CAF50;
             color: white;
         }
+
         tr:nth-child(even) {
             background-color: #f9f9f9;
         }
-        .highlight {
-            color: #4CAF50;
-            font-weight: bold;
-        }
-        .red_color {
-            color: #FF0000;
-            font-weight: bold;
-        }
+
         a {
             color: #4CAF50;
             text-decoration: none;
         }
+
         a:hover {
             text-decoration: underline;
         }
@@ -56,159 +58,62 @@
 <body>
 
 <h1>Vancouver Island Trip Itinerary</h1>
-
 <p>Trip from <strong>Richmond, BC</strong> to <strong>Nanaimo</strong> (with a day trip to <strong>Parksville</strong> or <strong>Qualicum Beach</strong>), staying at the <strong>Coast Bastion Hotel</strong> from July 5th to July 7th, 2025.</p>
 
-<h2>Day 1: July 5th – Departure from <strong>Richmond</strong> to <strong>Nanaimo</strong></h2>
+<h2>Day 1: July 5th – Richmond to Nanaimo</h2>
 <table>
-    <thead>
-        <tr>
-            <th>Time</th>
-            <th>Activity</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><strong>7:45 AM</strong></td>
-            <td>Leave from <strong>9399 Alexandra Road, Richmond, BC</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>9:00 AM – 10:00 AM</strong></td>
-            <td>Arrive at <strong>Tsawwassen Ferry Terminal</strong> and prepare for ferry departure.</td>
-        </tr>
-        <tr>
-            <td><strong>10:15 AM – 12:15 PM</strong></td>
-            <td>Take <strong>BC Ferries</strong> from <strong>Tsawwassen</strong> to <strong>Duke Point, Nanaimo</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>12:15 PM – 1:00 PM</strong></td>
-            <td>Arrive in <strong>Nanaimo</strong>, drive to <strong>Coast Bastion Hotel</strong> (~10 minutes), and check in.</td>
-        </tr>
-        <tr>
-            <td><strong>1:00 PM – 2:00 PM</strong></td>
-            <td>Lunch at <strong>Gabriel’s Café</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>2:00 PM – 3:30 PM</strong></td>
-            <td>Explore <strong>Nanaimo</strong>: Walk along the <strong>Harbourfront Walkway</strong>, visit <strong>Maffeo Sutton Park</strong>, then take the ferry to <strong>Newcastle Island</strong>. <a href="https://newcastleisland.ca/ferry-info" target="_blank">Book here</a>.</td>
-        </tr>
-        <tr>
-            <td><strong>3:30 PM – 5:00 PM</strong></td>
-            <td>Explore <strong>Newcastle Island</strong>, grab coffee at a café, relax, and enjoy the area.</td>
-        </tr>
-        <tr>
-            <td><strong>5:00 PM – 5:30 PM</strong></td>
-            <td>Return to <strong>Nanaimo</strong> by ferry.</td>
-        </tr>
-        <tr>
-            <td><strong>5:30 PM – 6:50 PM</strong></td>
-            <td>Return to hotel, then drive to <strong>Galaxy Cinema Nanaimo</strong> and dine at <strong>Montana's</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>6:50 PM – 9:30 PM</strong></td>
-            <td>Watch <em>Jurassic Park: Rebirth</em> at Galaxy Cinema.</td>
-        </tr>
-        <tr>
-            <td><strong>9:30 PM</strong></td>
-            <td>Drive back to <strong>Coast Bastion Hotel</strong> and rest.</td>
-        </tr>
-    </tbody>
+<thead>
+<tr><th>Time</th><th>Activity</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>7:45 AM</strong></td><td>Leave from <strong>9399 Alexandra Road, Richmond, BC</strong>.</td></tr>
+<tr><td><strong>9:00 AM – 10:00 AM</strong></td><td>Arrive at <strong>Tsawwassen Ferry Terminal</strong> and prepare for ferry departure.</td></tr>
+<tr><td><strong>10:15 AM – 12:15 PM</strong></td><td>Take <strong>BC Ferries</strong> to <strong>Duke Point, Nanaimo</strong>.</td></tr>
+<tr><td><strong>12:15 PM – 1:00 PM</strong></td><td>Drive to <strong>Coast Bastion Hotel</strong> (~10 min) and check in.</td></tr>
+<tr><td><strong>1:00 PM – 2:00 PM</strong></td><td>Lunch at <strong>Gabriel’s Café</strong>.</td></tr>
+<tr><td><strong>2:00 PM – 3:30 PM</strong></td><td>Walk along <strong>Harbourfront Walkway</strong>, visit <strong>Maffeo Sutton Park</strong>, then take the ferry to <strong>Newcastle Island</strong>. <a href="https://newcastleisland.ca/ferry-info" target="_blank">Book here</a>.</td></tr>
+<tr><td><strong>3:30 PM – 5:00 PM</strong></td><td>Explore <strong>Newcastle Island</strong> and relax.</td></tr>
+<tr><td><strong>5:00 PM – 5:30 PM</strong></td><td>Return to Nanaimo by ferry.</td></tr>
+<tr><td><strong>5:30 PM – 6:50 PM</strong></td><td>Return to hotel, then drive to <strong>Galaxy Cinema</strong> and eat at <strong>Montana’s</strong>.</td></tr>
+<tr><td><strong>6:50 PM – 9:30 PM</strong></td><td>Watch <em>Jurassic Park: Rebirth</em>.</td></tr>
+<tr><td><strong>9:30 PM</strong></td><td>Return to hotel and rest.</td></tr>
+</tbody>
 </table>
 
-<h2>Day 2: July 6th – Day Trip to <strong>Parksville</strong> or <strong>Qualicum Beach</strong></h2>
+<h2>Day 2: July 6th – Day Trip to Parksville / Qualicum Beach</h2>
 <table>
-    <thead>
-        <tr>
-            <th>Time</th>
-            <th>Activity</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><strong>8:00 AM – 9:00 AM</strong></td>
-            <td>Breakfast at <strong>Minnoz Lounge</strong> (inside <strong>Coast Bastion Hotel</strong>).</td>
-        </tr>
-        <tr>
-            <td><strong>9:00 AM – 10:30 AM</strong></td>
-            <td>Drive to <strong>Englishman River Falls</strong> (~42 minutes) and explore the area.</td>
-        </tr>
-        <tr>
-            <td><strong>10:30 AM – 11:30 AM</strong></td>
-            <td>Visit <strong>Kathok Meditation Center</strong> (~15 minutes away) to explore and do bai bai.</td>
-        </tr>
-        <tr>
-            <td><strong>11:30 AM – 1:00 PM</strong></td>
-            <td>Head to <strong>Qualicum Beach</strong> and have lunch at <strong>Sushi Wara</strong> or <strong>Sushi Hama</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>1:00 PM – 2:00 PM</strong></td>
-            <td>Explore the <strong>Heritage Forest</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>2:00 PM – 2:30 PM</strong></td>
-            <td>Visit <strong>Little Mountain Lookout</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>2:30 PM – 3:30 PM</strong></td>
-            <td>Explore <strong>Rathtrevor Provincial Park</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>3:30 PM – 4:00 PM</strong></td>
-            <td>Drive back to <strong>Nanaimo</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>4:00 PM – 5:30 PM</strong></td>
-            <td>Relax at the hotel.</td>
-        </tr>
-        <tr>
-            <td><strong>5:30 PM – 7:00 PM</strong></td>
-            <td>Dinner at a local restaurant: <strong>Thai Cook</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>7:00 PM – 9:00 PM</strong></td>
-            <td>Evening stroll along <strong>Nanaimo’s waterfront</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>9:00 PM</strong></td>
-            <td>Return to <strong>Coast Bastion Hotel</strong> for the night.</td>
-        </tr>
-    </tbody>
+<thead>
+<tr><th>Time</th><th>Activity</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>8:00 AM – 9:00 AM</strong></td><td>Breakfast at <strong>Minnoz Lounge</strong>.</td></tr>
+<tr><td><strong>9:00 AM – 10:30 AM</strong></td><td>Drive to <strong>Englishman River Falls</strong>, explore.</td></tr>
+<tr><td><strong>10:30 AM – 11:30 AM</strong></td><td>Visit <strong>Kathok Meditation Center</strong>.</td></tr>
+<tr><td><strong>11:30 AM – 1:00 PM</strong></td><td>Lunch at <strong>Sushi Wara</strong> or <strong>Sushi Hama</strong> in <strong>Qualicum Beach</strong>.</td></tr>
+<tr><td><strong>1:00 PM – 2:00 PM</strong></td><td>Walk the <strong>Heritage Forest</strong>.</td></tr>
+<tr><td><strong>2:00 PM – 2:30 PM</strong></td><td>Visit <strong>Little Mountain Lookout</strong>.</td></tr>
+<tr><td><strong>2:30 PM – 3:30 PM</strong></td><td>Explore <strong>Rathtrevor Provincial Park</strong>.</td></tr>
+<tr><td><strong>3:30 PM – 4:00 PM</strong></td><td>Drive back to <strong>Nanaimo</strong>.</td></tr>
+<tr><td><strong>4:00 PM – 5:30 PM</strong></td><td>Relax at the hotel.</td></tr>
+<tr><td><strong>5:30 PM – 7:00 PM</strong></td><td>Dinner at <strong>Thai Cook</strong>.</td></tr>
+<tr><td><strong>7:00 PM – 9:00 PM</strong></td><td>Stroll along <strong>Nanaimo waterfront</strong>.</td></tr>
+<tr><td><strong>9:00 PM</strong></td><td>Return to hotel.</td></tr>
+</tbody>
 </table>
 
-<h2>Day 3: July 7th – Morning Exploration & Return to <strong>Richmond</strong></h2>
+<h2>Day 3: July 7th – Nanaimo Morning & Return</h2>
 <table>
-    <thead>
-        <tr>
-            <th>Time</th>
-            <th>Activity</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><strong>8:00 AM – 9:00 AM</strong></td>
-            <td>Breakfast at <strong>Minnoz Lounge</strong> (or nearby café).</td>
-        </tr>
-        <tr>
-            <td><strong>9:00 AM – 11:00 AM</strong></td>
-            <td>Explore <strong>Nanaimo</strong>: Take a boat trip to <strong>Newcastle Island</strong>, visit <strong>Maffeo Sutton Park</strong>, or check out the <strong>Nanaimo Museum</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>11:30 AM – 12:30 PM</strong></td>
-            <td>Lunch in <strong>Nanaimo</strong> at <strong>Gabriel’s Café</strong> or <strong>The Nest Bistro</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>1:00 PM</strong></td>
-            <td>Drive to the <strong>Nanaimo Ferry Terminal</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>3:15 PM – 5:15 PM</strong></td>
-            <td>Take the <strong>BC Ferries</strong> from <strong>Nanaimo</strong> to <strong>Tsawwassen</strong>.</td>
-        </tr>
-        <tr>
-            <td><strong>5:30 PM</strong></td>
-            <td>Arrive at <strong>Tsawwassen</strong> and head back to <strong>Richmond</strong>.</td>
-        </tr>
-    </tbody>
+<thead>
+<tr><th>Time</th><th>Activity</th></tr>
+</thead>
+<tbody>
+<tr><td><strong>8:00 AM – 9:00 AM</strong></td><td>Breakfast at <strong>Minnoz Lounge</strong>.</td></tr>
+<tr><td><strong>9:00 AM – 11:00 AM</strong></td><td>Explore <strong>Newcastle Island</strong>, <strong>Maffeo Sutton Park</strong>, or <strong>Nanaimo Museum</strong>.</td></tr>
+<tr><td><strong>11:30 AM – 12:30 PM</strong></td><td>Lunch at <strong>Gabriel’s Café</strong> or <strong>The Nest Bistro</strong>.</td></tr>
+<tr><td><strong>1:00 PM</strong></td><td>Drive to <strong>Duke Point Ferry Terminal</strong>.</td></tr>
+<tr><td><strong>3:15 PM – 5:15 PM</strong></td><td>Ferry to <strong>Tsawwassen</strong>.</td></tr>
+<tr><td><strong>5:30 PM</strong></td><td>Return home to <strong>Richmond</strong>.</td></tr>
+</tbody>
 </table>
 
 </body>
