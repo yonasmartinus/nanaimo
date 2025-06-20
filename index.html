@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <title>Vancouver Island Trip Itinerary</title>
 <style>
-  /* Reset margin and padding */
+  /* Reset */
   * {
     margin: 0;
     padding: 0;
@@ -14,65 +14,73 @@
 
   body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background: #eef2f3;
-    color: #2c3e50;
-    padding: 20px;
-    line-height: 1.5;
+    background-color: #fafafa;
+    color: #222;
+    padding: 30px 40px;
+    line-height: 1.6;
+    max-width: 850px;
+    margin-left: 40px; /* left align page content */
   }
 
   h1 {
-    font-size: 2rem;
-    margin-bottom: 0.5em;
-    text-align: center;
-    color: #34495e;
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-bottom: 0.8em;
+    color: #1a3e59;
   }
 
   h2 {
-    font-size: 1.4rem;
-    margin: 1.5em 0 0.75em;
-    border-bottom: 2px solid #2980b9;
-    padding-bottom: 0.3em;
-    color: #2980b9;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-top: 2.2em;
+    margin-bottom: 0.6em;
+    border-left: 6px solid #31708e;
+    padding-left: 12px;
+    color: #31708e;
   }
 
   p {
-    max-width: 700px;
-    margin: 0 auto 1.5em;
-    font-size: 1rem;
-    text-align: center;
+    font-size: 1.1rem;
+    max-width: 720px;
+    margin-bottom: 1.6em;
+    color: #444;
   }
 
   table {
     width: 100%;
-    max-width: 700px;
-    margin-bottom: 2em;
     border-collapse: collapse;
-    background: white;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-    border-radius: 6px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
     overflow: hidden;
-    /* Remove centering */
-    margin-left: 0;
+    margin-bottom: 2.4em;
+  }
+
+  thead {
+    background: #31708e;
+    color: white;
   }
 
   th, td {
-    padding: 12px 15px;
+    padding: 14px 18px;
     text-align: left;
-    border-bottom: 1px solid #ddd;
   }
 
-  th {
-    background-color: #2980b9;
-    color: white;
-    font-weight: 600;
+  tbody tr:nth-child(odd) {
+    background: #e9f1f5;
   }
 
-  tr:nth-child(even) {
-    background-color: #f9fbfc;
+  tbody tr:nth-child(even) {
+    background: #f9fbfc;
+  }
+
+  /* Bold places inside table cells */
+  td strong {
+    font-weight: 700;
+    color: #1a3e59;
   }
 
   a {
-    color: #2980b9;
+    color: #31708e;
     text-decoration: none;
   }
 
@@ -90,10 +98,7 @@
 <h2>Day 1: July 5th – Richmond to Nanaimo</h2>
 <table>
   <thead>
-    <tr>
-      <th>Time</th>
-      <th>Activity</th>
-    </tr>
+    <tr><th>Time</th><th>Activity</th></tr>
   </thead>
   <tbody>
     <tr><td>7:45 AM</td><td>Leave from <strong>9399 Alexandra Road, Richmond, BC</strong>.</td></tr>
@@ -113,10 +118,7 @@
 <h2>Day 2: July 6th – Parksville or Qualicum Beach Day Trip</h2>
 <table>
   <thead>
-    <tr>
-      <th>Time</th>
-      <th>Activity</th>
-    </tr>
+    <tr><th>Time</th><th>Activity</th></tr>
   </thead>
   <tbody>
     <tr><td>8:00 AM – 9:00 AM</td><td>Breakfast at <strong>Minnoz Lounge</strong> (at <strong>Coast Bastion Hotel</strong>).</td></tr>
@@ -126,7 +128,7 @@
     <tr><td>2:00 PM – 3:30 PM</td><td>Visit <strong>Little Mountain Lookout</strong> and explore <strong>Rathtrevor Provincial Park</strong>.</td></tr>
     <tr><td>3:30 PM – 4:00 PM</td><td>Drive back to <strong>Nanaimo</strong>.</td></tr>
     <tr><td>4:00 PM – 5:30 PM</td><td>Relax at the hotel or go to rock climbing at <strong>Romper Room Climbing Gym</strong>.</td></tr>
-    <tr><td>5:30 PM – 7:00 PM</td><td>Dinner at <strong>Thai Cook</strong> and can walk to <strong>Old City Quarter</strong>.</td></tr>
+    <tr><td>5:30 PM – 7:00 PM</td><td>Dinner at <strong>Thai Cook</strong> and walk to <strong>Old City Quarter</strong>.</td></tr>
     <tr><td>7:00 PM – 9:00 PM</td><td>Evening stroll along <strong>Nanaimo’s waterfront</strong>.</td></tr>
     <tr><td>9:00 PM</td><td>Return to <strong>Coast Bastion Hotel</strong>.</td></tr>
   </tbody>
@@ -135,10 +137,7 @@
 <h2>Day 3: July 7th – Morning & Return</h2>
 <table>
   <thead>
-    <tr>
-      <th>Time</th>
-      <th>Activity</th>
-    </tr>
+    <tr><th>Time</th><th>Activity</th></tr>
   </thead>
   <tbody>
     <tr><td>8:00 AM – 9:00 AM</td><td>Breakfast at <strong>Minnoz Lounge</strong> or nearby café.</td></tr>
